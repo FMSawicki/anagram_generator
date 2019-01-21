@@ -1,12 +1,17 @@
 import React, { Component } from "react";
+import "./Output.css";
 // Creates window and displays generator output
 
 class Output extends Component {
   render() {
     return (
       <div className="outputMain">
-        <h5 className="outputText">Text</h5>
-        <ul />
+        <div className="outputText">
+          <ul />
+        </div>
+        <div className="collage">
+          <p className="outputHead">Output</p>
+        </div>
       </div>
     );
   }

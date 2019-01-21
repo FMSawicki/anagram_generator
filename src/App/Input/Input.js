@@ -1,11 +1,12 @@
 import React, { Component } from "react";
+import "./Input.css";
 import logo from "../logo.png";
 
 class input extends Component {
   render() {
     return (
       <div className="inputMain">
-        <div className="App-div">
+        <div className="inputDiv">
           <img src={logo} className="App-logo" alt="logo" />
           <p>Enter a word to get an anagram!</p>
           <form>
@@ -30,4 +31,3 @@ class input extends Component {
 }
 
 export default input;
-//test

@@ -1,21 +1,15 @@
 .App {
   text-align: center;
   background-image: url('./circuit.png');
-  padding-top: 175px;
+  height: 100%;
+  padding-top: 125px;
   padding-bottom: 150px;
-}
 
-.App-logo {
-  /* animation: App-logo-spin infinite 20s linear; */
-  height: 25vmin;
-  margin-top: 100px;
-  /* float: top; */
 }
-
-.App-div {
+.container {
   background-color: #9e81b8;
-  height: 500px;
-  width: 600px;
+  height: 600px;
+  width: 700px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,30 +20,13 @@
   margin-top: -50px;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 50%;
-  /* padding-top: auto;
-  padding-bottom: auto; */
+  border-radius: 20%;
+  border: solid rgba(62, 228, 192, 0.6) 10px;
+  box-shadow: 0 0 0 2rem rgba(135, 206, 235, .5);
 }
 
 .App-link {
   color: #61dafb;
 }
-form {
-  /* margin-top: 50px; */
-  height:100px;
-  width: 200px;
-  /* background-color: red; */
-  /* flex-direction: column; */
-}
 
-#inputSubmit {
-  /* margin-bottom: -50px; */
-}
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+

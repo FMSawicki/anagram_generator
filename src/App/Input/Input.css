@@ -1,0 +1,21 @@
+.App-logo {
+    /* animation: App-logo-spin infinite 20s linear; */
+    height: 25vmin;
+    /* margin-top: 100px; */
+    /* float: top; */
+  }
+  .inputMain {
+      /* margin-top: 125px; */
+  }
+  .inputDiv {
+    
+  }
+  form {
+    /* margin-top: 50px; */
+    margin-left: auto;
+    margin-right: auto;
+    height:100px;
+    width: 200px;
+    /* background-color: red; */
+    /* flex-direction: column; */
+  }

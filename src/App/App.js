@@ -1,12 +1,18 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
+
 import "./App.css";
 import Output from "./Output/Output";
 import Input from "./Input/Input";
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state = { inputText: "", inputTemp: "", apiResponse: [] };
+    this.state = {
+      inputText: "",
+      inputTemp: "",
+      apiResponse: [],
+      submit: false
+    };
     this.handleInput = this.handleInput.bind(this);
   }
   handleInput = () => {
@@ -39,11 +45,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Input
-          onChange={this.onChange}
-          handleInput={this.handleInput}
-          input={this.state.input}
-        />
+        <div className="container">
+          <Input
+            onChange={this.onChange}
+            handleInput={this.handleInput}
+            input={this.state.input}
+          />
+          <Output />
+        </div>
       </div>
     );
   }
